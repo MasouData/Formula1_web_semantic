@@ -10,7 +10,8 @@ The aim is to leverage Semantic Web technologies to enhance data integration and
 
 ## Methodology
 
-- Downloaded structured Formula 1 datasets from Kaggle.
+- read please `student_project_details.pdf` for the description of the project.  
+- Downloaded structured [Formula 1 datasets from Kaggle](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020).
 - Transformed CSV data into RDF triples using Python scripts detailed in `project1.ipynb`.
 - Uploaded the resulting RDF data (`f1_data.rdf`) to Blazegraph, a powerful triplestore.
 - Developed an interactive user interface with HTML and JavaScript that sends SPARQL queries to Blazegraph and displays the results.
