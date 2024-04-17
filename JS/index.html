@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formula 1 Driver Information</title>
+</head>
+<body>
+    <h1>Formula 1 Driver Information</h1>
+    <button id="driverInfoBtn">Driver Information</button>
+    <button id="driverCompareBtn">Drivers Comparison</button>
+
+    <div id="driverInfoSection" style="display: none;">
+        <select id="driverSelect"></select>
+        <button onclick="fetchDriverData()">Get Driver Info</button>
+        <div id="driverInfo"></div>
+    </div>
+    
+
+    <div id="driverCompareSection" style="display: none;">
+        <select id="driver1Select"></select>
+        <select id="driver2Select"></select>
+        <button onclick="compareDrivers()">Compare</button>
+        <div id="comparisonResult"></div>
+        <div width="90%" >
+            <!-- Canvas for Total Points Chart -->
+            <canvas id="totalPointsChart" width="300" height="80"></canvas>
+        
+            <!-- Canvas for Average Points Chart -->
+            <canvas id="avgPointsChart" width="300" height="80"></canvas>
+        </div>
+    </div>
+
+    <button id="backBtn" style="display: none;" onclick="backToMainMenu()">Back to Main Menu</button>
+
+    <script src="index.js"></script>
+    <script src="dropdown.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Formula 1 Driver Information</title>
+    
+</head>
+<body>
+    <h1>Formula 1 Driver Information</h1>
+    <input type="text" id="driverNicknameInput" placeholder="Enter Driver Nickname">
+    <button onclick="fetchDriverData()">Get Driver Info</button>
+    <button onclick="fetchDriverPerformance()">Get Driver Performance</button>
+    <div id="driverInfo"></div>
+    <div id="driverPerformance"></div>
+    <canvas id="performanceChart" width="400" height="00"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></scrip>
+    <script src="index.js"></script>
+</body>
+</html> -->
