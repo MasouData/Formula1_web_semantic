@@ -33,11 +33,18 @@ The aim is to use Semantic Web technologies to enhance data integration and inte
 3. Start Blazegraph:
  - Open the command prompt and navigate to the directory where `Blazegraph.jar` is located.
  - Run the following command to start Blazegraph:
-    ```bash java -server -Xmx4g -jar blazegraph.jar```
+
+    ```bash 
+    java -server -Xmx4g -jar blazegraph.jar
+    ```
+
 4. Launch the Node Server:
  - In the command prompt, navigate to the project directory.
  - Run the following command to start the Node server:
-    ```bash node server.js```
+
+    ```bash 
+    node server.js
+    ```
 
 4. Open `index.html` in a web browser to interact with the user interface.
 
